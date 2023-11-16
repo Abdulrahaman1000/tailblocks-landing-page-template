@@ -1,17 +1,11 @@
-import Image from "next/image";
 
-import HeroSection from "@/components/hero-section";
-import Content from "@/components/content";
-import Feature from "@/components/feature";
-import Contact from "@/components/contact";
-
+import ForgetPassword from "@/app/forgotpassword/page";
+import LandingPage from "@/pages/landing-page";
 export default function Home() {
   return (
     <main>
-      <HeroSection />
-      <Content />
-      <Feature />
-      <Contact />
+    <LandingPage/>
+    <ForgetPassword/>
     </main>
   );
 }
