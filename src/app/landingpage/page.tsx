@@ -7,7 +7,7 @@ const LandingPage = () => {
   return (
 <LandingLayout>
 <section className="text-gray-600 body-font">
-<div className="py-2">
+<div className="">
   <div className="flex bg-white shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-full">
         <div className="hidden lg:block lg:w-1/2 bg-cover" style={{ 
               backgroundImage: "url(images/bk.png)",

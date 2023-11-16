@@ -1,11 +1,9 @@
 
-import ForgetPassword from "@/app/forgotpassword/page";
-import LandingPage from "@/pages/landing-page";
+import LandingPage from "@/app/landingpage/page";
 export default function Home() {
   return (
     <main>
     <LandingPage/>
-    <ForgetPassword/>
     </main>
   );
 }
